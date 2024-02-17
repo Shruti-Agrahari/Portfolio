@@ -196,9 +196,46 @@ p{
        position: absolute;
        top: 50%;
        left: 25%;
-       background: var(--bg-black);
        overflow-x: hidden;
  } */
+
+  /* project section */
+     .project_wrapper .card{
+        background-color: var(--bg-light);
+        cursor: pointer;
+        -webkit-transition:all .4s ease 0s;
+        -o-transition:all .4s ease 0s;
+        -ms-transition:all .4s ease 0s;
+        -moz-transition: all .4s ease 0sk;
+        transition:all .4s ease 0s;
+     }
+     
+     .project_wrapper .card:hover{
+        box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%);
+        background: var(--bg-white);
+     }
+
+     /* skill section */
+     .skills_wrapper .card{
+        background-color: var(--bg-light);
+        cursor: pointer;
+        -webkit-transition:all .4s ease 0s;
+        -o-transition:all .4s ease 0s;
+        -ms-transition:all .4s ease 0s;
+        -moz-transition: all .4s ease 0sk;
+        transition:all .4s ease 0s;
+     }
+     .skills_wrapper .card:hover{
+        box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%);
+        background: var(--bg-white);
+     }
+     .skills_wrapper .card p{
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-style: italic;
+     }
+
 
  /* Footer */
  .footer_wrapper .newsletter{
