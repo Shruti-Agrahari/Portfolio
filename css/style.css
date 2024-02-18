@@ -217,6 +217,7 @@ p{
 
      /* skill section */
      .skills_wrapper .card{
+       
         background-color: var(--bg-light);
         cursor: pointer;
         -webkit-transition:all .4s ease 0s;
@@ -241,7 +242,7 @@ p{
  .footer_wrapper .newsletter{
     width:100%;
     height:100%;
-    background-image: url(../19_Portfolio_images/images/subscribe-bg.webp);
+    background-image: url(../Portfolio_images/images/subscribe-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
